@@ -27,7 +27,7 @@
         var d1 = match[1]; // 첫 번째 인자 값
         var d2 = match[2]; // 두 번째 인자 값
         var FileName = match[3]; // 세 번째 인자 값
-        var FileSize = match[3]; // 네 번째 인자 값
+        var FileSize = match[4]; // 네 번째 인자 값
         return [d1, d2, FileName, FileSize];
       }
     }

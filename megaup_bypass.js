@@ -2,9 +2,10 @@
 // @name         MegaUp Bypass and Remove 5 Secs
 // @namespace    yournamespace
 // @version      1.0
-// @description  MegaUp 사이트에서 자동으로 다운로드 링크를 바로 생성하며, 광고 차단기 차단을 우회합니다.
+// @description  liminates ad blocker blocking and 5 second waits on Megaup sites and generates download links instantly.
 // @match        https://megaup.net/*
 // @grant        none
+// @downloadURL  https://github.com/pgh268400/MegaUp_Bypass_Adblocker_with_5Secs/releases/download/v0.01/megaup_bypass.js
 // ==/UserScript==
 
 (function () {

@@ -6,8 +6,6 @@
 // @match        https://megaup.net/*
 // @grant        none
 // @author       File
-// @downloadURL  https://github.com/pgh268400/MegaUp_Bypass_Adblocker_with_5Secs/releases/download/v0.01/megaup_bypass.js
-// @updateURL    https://github.com/pgh268400/MegaUp_Bypass_Adblocker_with_5Secs/releases/download/v0.01/megaup_bypass.js
 // ==/UserScript==
 
 (function () {

@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         MegaUp Bypass and Remove 5 Secs
-// @namespace    yournamespace
+// @namespace    https://github.com/pgh268400
 // @version      1.0
 // @description  liminates ad blocker blocking and 5 second waits on Megaup sites and generates download links instantly.
 // @match        https://megaup.net/*
 // @grant        none
+// @author       File
 // @downloadURL  https://github.com/pgh268400/MegaUp_Bypass_Adblocker_with_5Secs/releases/download/v0.01/megaup_bypass.js
+// @updateURL    https://github.com/pgh268400/MegaUp_Bypass_Adblocker_with_5Secs/releases/download/v0.01/megaup_bypass.js
 // ==/UserScript==
 
 (function () {

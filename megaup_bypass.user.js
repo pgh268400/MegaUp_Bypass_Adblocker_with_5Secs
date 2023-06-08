@@ -15,6 +15,7 @@
   seconds = -1;
 
   //함수 호출부를 이용해 다운로드 링크 바로 생성
+  //정규식을 활용해 DeObfuscate_String_and_Create_Form_With_Mhoa_URL() 함수의 인자값들을 DOM에서 각각 파싱한다.
   function get_arg() {
     var scriptElements = document.getElementsByTagName("script"); // 현재 HTML 문서의 모든 <script> 요소 가져오기
     var regex =
@@ -33,7 +34,8 @@
       }
     }
   }
-
+  
+  //인자값을 기반으로 url_da_encrypt 를 생성하는 함수.
   function get_url_da_encrypt(d1, d2) {
     var url_da_encrypt = "";
     for (let i = d1.length / 4 - 1; i >= 0; i--) {
@@ -47,7 +49,8 @@
     }
     return url_da_encrypt;
   }
-
+  
+  //최종적으로 다운로드 링크를 생성한다. 필요조건은 FileName, FileSize, 그리고 d1 d2 를 이용해 생성한 url_da_encrypt
   const args = get_arg();
   const d1 = args[0];
   const d2 = args[1];
